@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameShuffle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+    <header class="topbar">
+        <span class="brand">GameShuffle</span>
+        <span class="tag"><span class="tag-code">&lt;mode&gt;</span><span class="tag-text">Shuffle</span><span class="tag-code">&lt;/mode&gt;</span></span>
+    </header>
+
+    <main class="stage hero">
+        <section class="hero-left">
+            <h1 class="hero-title">Ready<br>to play?</h1>
+            <p class="hero-sub">Click the button and discover a random GAME.</p>
+            <p class="hero-note">When you're done, click again for another surprise.</p>
+            <button class="btn" onclick="goToRandomGame()">Shuffle &#8599;</button>
+        </section>
+        <section class="hero-right">
+<svg viewBox="0 0 370 232" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs><rect id="t" width="94" height="94" rx="20" ry="20"/></defs>
+<g class="tile" data-note="392.0">
+<g transform="translate(0 20)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 19)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 18)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 17)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 16)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 15)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 14)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 13)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 12)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 11)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 10)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 9)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 8)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 7)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 6)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 5)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 4)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 3)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 2)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 1)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="#0b1424"/></g></g>
+<g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="0" fill="var(--orange)" stroke="#0b1424" stroke-width="3"/><text x="47.0" y="48.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, sans-serif" font-weight="800" font-size="46" fill="#0b1424">G</text></g>
+</g>
+<g class="tile" data-note="440.0">
+<g transform="translate(0 20)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 19)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 18)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 17)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 16)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 15)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 14)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 13)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 12)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 11)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 10)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 9)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 8)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 7)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 6)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 5)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 4)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 3)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 2)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 1)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="#0b1424"/></g></g>
+<g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="0" fill="var(--lavender)" stroke="#0b1424" stroke-width="3"/><text x="147.0" y="48.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, sans-serif" font-weight="800" font-size="46" fill="#0b1424">A</text></g>
+</g>
+<g class="tile" data-note="493.88">
+<g transform="translate(0 20)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 19)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 18)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 17)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 16)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 15)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 14)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 13)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 12)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 11)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 10)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 9)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 8)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 7)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 6)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 5)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 4)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 3)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 2)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 1)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="#0b1424"/></g></g>
+<g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="0" y="100" fill="var(--green)" stroke="#0b1424" stroke-width="3"/><text x="47.0" y="148.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, sans-serif" font-weight="800" font-size="46" fill="#0b1424">E</text></g>
+</g>
+<g class="tile" data-note="523.25">
+<g transform="translate(0 20)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 19)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 18)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 17)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 16)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 15)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 14)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 13)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 12)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 11)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 10)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 9)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 8)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 7)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 6)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 5)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 4)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 3)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 2)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="translate(0 1)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="#0b1424"/></g></g>
+<g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="0" fill="var(--purple)" stroke="#0b1424" stroke-width="3"/><text x="247.0" y="48.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, sans-serif" font-weight="800" font-size="46" fill="#0b1424">M</text></g>
+</g>
+<g class="tile" data-note="587.33">
+<g transform="translate(0 20)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 19)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 18)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 17)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 16)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 15)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 14)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 13)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 12)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 11)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 10)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 9)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 8)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 7)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 6)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 5)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 4)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 3)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 2)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 1)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="#0b1424"/></g></g>
+<g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="100" y="100" fill="var(--yellow)" stroke="#0b1424" stroke-width="3"/><text x="147.0" y="148.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, sans-serif" font-weight="800" font-size="46" fill="#0b1424">S</text></g>
+</g>
+<g class="tile" data-note="783.99">
+<g transform="translate(0 20)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 19)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 18)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 17)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 16)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 15)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 14)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 13)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 12)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 11)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 10)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 9)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 8)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 7)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 6)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 5)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 4)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 3)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 2)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="translate(0 1)"><g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="#0b1424"/></g></g>
+<g transform="matrix(0.70711 0.35355 -0.70711 0.35355 150 18)"><use href="#t" x="200" y="100" fill="var(--blue)" stroke="#0b1424" stroke-width="3"/><text x="247.0" y="148.0" text-anchor="middle" dominant-baseline="central" font-family="Inter, sans-serif" font-weight="800" font-size="46" fill="#0b1424">!</text></g>
+</g>
+</svg>
+        </section>
+    </main>
+
+    <nav class="bottombar">
+        <a class="chip active" href="index.html">Home</a>
+        <a class="chip" href="index2.html">Snake</a>
+        <a class="chip" href="index3.html">Pac-Man</a>
+        <div class="cta">Hit the arrow for a random game</div>
+        <button class="arrow" onclick="goToRandomGame()" aria-label="Random game">&#8599;</button>
+    </nav>
+</div>
+
+<script>
+function goToRandomGame() {
+    const games = ["index2.html", "index3.html"];
+    const randomGame = games[Math.floor(Math.random() * games.length)];
+    window.location.href = randomGame;
+}
+</script>
+
+<script>
+/* Mechanical keyboard click sounds (synthesised, no audio files needed) */
+let audioCtx = null;
+let noiseBuf = null;
+
+function getNoise() {
+    if (!noiseBuf) {
+        const len = audioCtx.sampleRate; // 1 second of white noise, reused
+        noiseBuf = audioCtx.createBuffer(1, len, audioCtx.sampleRate);
+        const d = noiseBuf.getChannelData(0);
+        for (let k = 0; k < len; k++) d[k] = Math.random() * 2 - 1;
+    }
+    return noiseBuf;
+}
+
+// short band-passed noise burst
+function burst(t, freq, q, vol, dur) {
+    const src = audioCtx.createBufferSource();
+    const filter = audioCtx.createBiquadFilter();
+    const gain = audioCtx.createGain();
+    src.buffer = getNoise();
+    filter.type = "bandpass";
+    filter.frequency.value = freq;
+    filter.Q.value = q;
+    gain.gain.setValueAtTime(vol, t);
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    src.connect(filter).connect(gain).connect(audioCtx.destination);
+    src.start(t, Math.random() * 0.5);
+    src.stop(t + dur + 0.01);
+}
+
+// low "thock" body of the keycap hitting the plate
+function thock(t, freq, vol, dur) {
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = "sine";
+    osc.frequency.setValueAtTime(freq * 1.6, t);
+    osc.frequency.exponentialRampToValueAtTime(freq, t + 0.03);
+    gain.gain.setValueAtTime(vol, t);
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    osc.connect(gain).connect(audioCtx.destination);
+    osc.start(t);
+    osc.stop(t + dur + 0.01);
+}
+
+function playClick(pitch) {
+    try {
+        audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === "suspended") audioCtx.resume();
+        const t = audioCtx.currentTime;
+        const v = 0.92 + Math.random() * 0.16;          // tiny random variation so it never sounds identical
+        const tone = (0.9 + (pitch % 400) / 2000) * v;   // each tile gets a slightly different tone
+
+        // 1) "click": the switch's sharp high-frequency tick
+        burst(t, 4200 * tone, 1.2, 0.9, 0.018);
+        burst(t, 2600 * tone, 0.9, 0.5, 0.025);
+
+        // 2) "clack": keycap bottoming out, a few ms later
+        burst(t + 0.012, 1400 * tone, 0.7, 0.6, 0.05);
+        thock(t + 0.012, 170 * tone, 0.7, 0.07);
+
+        // 3) release "tick" as the key comes back up
+        burst(t + 0.075, 3200 * tone, 1.5, 0.25, 0.015);
+    } catch (e) { /* audio not available, ignore */ }
+}
+
+document.querySelectorAll(".tile").forEach(tile => {
+    tile.setAttribute("tabindex", "0");
+    tile.setAttribute("role", "button");
+    const note = parseFloat(tile.dataset.note);
+    tile.addEventListener("click", () => playClick(note));
+    tile.addEventListener("keydown", e => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); playClick(note); }
+    });
+});
+</script>
+
+</body>
+</html>
